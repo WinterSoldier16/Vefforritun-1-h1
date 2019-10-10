@@ -1,0 +1,19 @@
+{
+  "name": "vefforritun-1-h1",
+  "version": "0.0.1",
+  "description": "Hopverkefni 1 hopur 28",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"browser-sync start --server --files index.html styles.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WinterSoldier16/Vefforritun-1-h1.git"
+  },
+  "author": "Ester Brynjar Veturlidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WinterSoldier16/Vefforritun-1-h1/issues"
+  },
+  "homepage": "https://github.com/WinterSoldier16/Vefforritun-1-h1#readme"
+}
