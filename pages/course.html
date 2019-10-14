@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vöruhúsið</title>
+    <title>Námskeið</title>
 
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="styles.css">
@@ -13,45 +13,57 @@
 
     </header>
 
-    Námskeið
-    Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!
-    Mynd af Prílihúsinu
+    <h2>Námskeið</h2>
+    <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!
+    Mynd af Prílihúsinu</p>
     
-    Almennar upplýsingar
-    Nafn:
-    Heimilisfang:
-    Aldur:
-    Námskeið:
-        V0 - V1
-        V2 - V4
-        V5 - V7
-        Krakkanámskeið
-        Fjallaklifur
+    <h2>Almennar upplýsingar</h2>
+    <label for="name">Nafn:</label>
+    <input type="text" name="name" id="name" required>
+    <label for="address">Heimilisfang:</label>
+    <input type="text" name="address" id="address" required>
+    <label for="age">Aldur:</label>
+    <input type="number" name="age" id="age" required>
+    <label for="course">Námskeið:</label>
+    <select>
+        <option>V0 - V1</option>
+        <option>V2 - V4</option>
+        <option>V5 - V7</option>
+        <option>Krakkanámskeið</option>
+        <option>Fjallaklifur</option>
+    </select>
+        
     
-    Greiðsluupplýsingar
-    Kortanúmer:
-    Korthafi:
-    Gildistími:
+    <h2>Greiðsluupplýsingar</h2>
+    <label for="card__number">Kortanúmer:</label>
+    <input type="text" name="card__number" id="card__number" required>
+    <label for="card__name">Korthafi:</label>
+    <input type="number" name="card__number" id="card__number" required>
+    <label for="card__expire">Gildistími:</label>
     Mán
-        01
-        02
-        03
-        04
-        05
-        06
-        07
-        08
-        09
-        10
-        11
-        12
+    <select>
+        <option>01</option>
+        <option>02</option>
+        <option>03</option>
+        <option>04</option>
+        <option>05</option>
+        <option>06</option>
+        <option>07</option>
+        <option>08</option>
+        <option>09</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+    </select>
     Ár
-        2019
-        2020
-        2021
-        2022
+    <select>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+    </select>
     
-    Skrá
+    <button>Skrá</button>
 
     <footer>
         
