@@ -1,0 +1,56 @@
+header{
+  background-color: $color1;
+}
+
+h1{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.header__list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 16px;
+}
+
+.header__item{
+  margin-right: 10px;
+}
+
+.header__link{
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__cart{
+  text-decoration: none;
+  color: #000000;
+}
+
+footer{
+  background-color: $color2;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__group{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  justify-content: space-around;
+}
+
+.footer__list{
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.footer__link{
+  text-decoration: none;
+  color: white;
+}
