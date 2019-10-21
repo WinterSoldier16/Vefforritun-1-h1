@@ -24,11 +24,16 @@
 
   <main>
 
-    <h2>Námskeið</h2>
-    <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+    <div class="textbox__course">
+    <h2 class="text__course">Námskeið</h2>
+    <p class="text__course">Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+    </div>
+
+    <div class="course__img">
+        <img class="image" src="../img/climbing-gym.jpg" alt="Mynd af Prílihúsinu">
+    </div>
     
-        <img src="../img/climbing-gym.jpg" alt="Mynd af Prílihúsinu">
-    
+    <div class="pay__info">
     <h2>Almennar upplýsingar</h2>
     <label for="name">Nafn:</label>
     <input type="text" name="name" id="name" required>
@@ -44,8 +49,9 @@
         <option>Krakkanámskeið</option>
         <option>Fjallaklifur</option>
     </select>
+    </div>
         
-    
+    <div class="pay__info">
     <h2>Greiðsluupplýsingar</h2>
     <label for="card__number">Kortanúmer:</label>
     <input type="text" name="card__number" id="card__number" required>
@@ -74,8 +80,11 @@
         <option>2021</option>
         <option>2022</option>
     </select>
+    </div>
     
+    <div>
     <button>Skrá</button>
+    </div>
 
   </main>
 
