@@ -1,0 +1,41 @@
+.staff__image{
+  max-width: 100%;
+}
+
+.main__staff{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+}
+
+.card {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  width: 300px;
+  height: 400px;
+  transform-style: preserve-3d;
+  transition: $transition;
+}
+.container:hover .card{
+  transform: rotateY(180deg);
+}
+.face{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.face.staff__information {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 500px){
+
+}
