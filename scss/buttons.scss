@@ -24,10 +24,11 @@
     padding: 6px 8px;
     border-radius: 5px;
     width: 250px;
-    margin-bottom: 2*$gutter;
+    margin-bottom: $gutter;
     box-sizing: border-box;
     &:hover {
         background-color: $color1;
         transition: $transition;
     }
+    
 }
