@@ -15,7 +15,7 @@
   width: 100vw;
   /*width: 760px;*/
   height: 700px;
-  margin-top:$gutter;
+  margin-top: $gutter;
   margin-bottom: $gutter;
 }
 
@@ -36,8 +36,20 @@
   height: 100%;
   backface-visibility: hidden;
 }
+.staff__information{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+h2{
+  margin-bottom: 1rem;
+}
 
 .face.staff__information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transform: rotateY(180deg);
 }
 
@@ -46,13 +58,13 @@
   .container{
     max-width: 460px;
     width: 100vw;
-    /*height: 100%;
+    height: 100%;
   }
 }*/
 
 @media (min-width:600px){
 
   .container{
-    width: 50vw;
+    width: 45vw;
   }
 }
