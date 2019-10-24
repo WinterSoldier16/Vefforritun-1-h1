@@ -1,13 +1,11 @@
 .index__img1 {
   width: 100%;
   margin-top: $gutter;
-
 }
 
 .index__img2 {
   width: 100%;
   margin-top: $gutter;
-
 }
 
 .image {
@@ -15,7 +13,7 @@
   margin-bottom: $gutter;
 }
 
-main {
+.main__index {
   margin: 0 auto;
   max-width: 1450px;
   padding-left: 20px;
@@ -37,6 +35,11 @@ main {
 .button{
   max-width: 50%;
   margin-top: $gutter;
+}
+
+.row{
+  max-width: 1200px;
+  margin: auto;
 }
 
 @media (min-width: 520px){
