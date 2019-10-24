@@ -11,27 +11,82 @@
 }
 
 .image {
+  max-width: 100%;
+  margin-bottom: $gutter;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1450px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.textbox__index{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-bottom: $gutter;
+}
+
+.text__index{
+  margin-top: $gutter;
+  width: 100%;
+}
+
+.button{
+  max-width: 50%;
+  margin-top: $gutter;
+}
+
+@media (min-width: 520px){
+
+  .index__img1 {
+    width: 50%;
+
+    margin-right: $gutter/2;
+    margin-top: $gutter;
+    order: -1;
+  }
+
+  .index__img2 {
+    width: 50%;
+    margin-top: $gutter;
+
+  }
+
+  .image {
     max-width: 100%;
     margin-bottom: $gutter;
   }
 
-  main {
+  .main__index {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     max-width: 1450px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+
   .textbox__index{
     display: flex;
     flex-direction: column;
-    max-width: 100%;
     margin-bottom: $gutter;
+    margin-left: $gutter/2;
+    width: 50%;
   }
 
   .text__index{
+    max-width: 100%;
     margin-top: $gutter;
-    width: 100%;
   }
 
   .button{
@@ -39,60 +94,4 @@
     margin-top: $gutter;
   }
 
-  @media (min-width: 520px){
-
-    .index__img1 {
-      width: 50%;
-      
-      margin-right: $gutter/2;
-      margin-top: $gutter;
-      order: -1;
-    }
-
-    .index__img2 {
-      width: 50%;
-      margin-top: $gutter;
-    
-    }
-    
-    .image {
-        max-width: 100%;
-        margin-bottom: $gutter;
-      }
-    
-      .main__index {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        max-width: 1450px;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-
-      .row{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-      }
-
-    
-      .textbox__index{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: $gutter;
-        margin-left: $gutter/2;
-        width: 50%;
-      }
-    
-      .text__index{
-        max-width: 100%;
-        margin-top: $gutter;
-      }
-    
-      .button{
-        max-width: 50%;
-        margin-top: $gutter;
-      }
-
 }
-  

@@ -52,7 +52,7 @@ strong{
   justify-content: flex-end;
 }
 
-.cart-image{
+.header__cart--image{
   width: 25px;
 }
 
@@ -112,4 +112,18 @@ h3{
   margin: auto;
   width: 50%;
   text-align: center;
+}
+
+@media(min-width: 600px){
+  .header__list{
+    margin-left: 30%;
+    width: 40%;
+  }
+  .header__group{
+    display: flex;
+    flex-direction: row;
+  }
+  .cart__header__position{
+    width: 15%;
+  }
 }
