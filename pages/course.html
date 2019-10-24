@@ -26,7 +26,7 @@
     </div>
   </header>
 
-  <main>
+  <main class="main__course">
 
     <div class="textbox__course">
       <h2 class="text__course">Námskeið</h2>
@@ -36,34 +36,49 @@
     <div class="course__img">
       <img class="image" src="../img/climbing-gym.jpg" alt="Mynd af Prílihúsinu">
     </div>
-
-    <div class="pay__info">
+    
+    <div class="pay__info__group">
+    <div class="pay__info1">
       <h2>Almennar upplýsingar</h2>
-      <label for="name">Nafn:</label>
-      <input type="text" name="name" id="name" required>
-      <label for="address">Heimilisfang:</label>
-      <input type="text" name="address" id="address" required>
-      <label for="age">Aldur:</label>
-      <input type="text" name="age" id="age" required>
-      <label for="course">Námskeið:</label>
-      <select>
+      <div class="label__group">
+      <label for="name" class="course__label">Nafn:</label>
+      <input type="text" name="name" id="name" class="course__input" required>
+      </div>
+      <div class="label__group">
+      <label for="address" class="course__label">Heimilisfang:</label>
+      <input type="text" name="address" id="address" class="course__input" required>
+      </div>
+      <div class="label__group">
+      <label for="age" class="course__label">Aldur:</label>
+      <input type="text" name="age" id="age" class="course__input" required>
+      </div>
+      <div class="label__group">
+      <label for="course" class="course__label">Námskeið:</label>
+      <select class="course__input">
         <option>V0 - V1</option>
         <option>V2 - V4</option>
         <option>V5 - V7</option>
         <option>Krakkanámskeið</option>
         <option>Fjallaklifur</option>
       </select>
+      </div>
     </div>
 
-    <div class="pay__info">
+    <div class="pay__info2">
       <h2>Greiðsluupplýsingar</h2>
-      <label for="card__number">Kortanúmer:</label>
-      <input type="text" name="card__number" id="card__number" required>
-      <label for="card__name">Korthafi:</label>
-      <input type="text" name="card__number" id="card__number" required>
-      <label for="card__expire">Gildistími:</label>
-      <label for="month">Mán</label>
-      <select>
+      <div class="label__group">
+      <label for="card__number" class="course__label">Kortanúmer:</label>
+      <input type="text" name="card__number" id="card__number" class="course__input" required>
+      </div>
+      <div class="label__group">
+      <label for="card__name" class="course__label">Korthafi:</label>
+      <input type="text" name="card__number" id="card__number" class="course__input" required>
+      </div>
+      <div class="label__group">
+      <label for="card__expire"class="course__label">Gildistími:</label>
+      <div class="small__label__group">
+      <label for="month" class="small__label">Mán</label>
+      <select class="select__small">
         <option>01</option>
         <option>02</option>
         <option>03</option>
@@ -77,18 +92,21 @@
         <option>11</option>
         <option>12</option>
       </select>
-      <label for="year">Ár</label>
-      <select>
+      <label for="year" class="small__label">Ár</label>
+      <select class="select__small">
         <option>2019</option>
         <option>2020</option>
         <option>2021</option>
         <option>2022</option>
       </select>
+      </div>
+      </div>
     </div>
 
-    <div>
+    <div class="button__placement">
       <button class="button__blue">Skrá</button>
     </div>
+  </div>
 
 
   </main>

@@ -9,7 +9,7 @@
   margin-bottom: 20px;
 }
 
-main {
+.main__course {
   margin: 0 auto;
   max-width: 1450px;
   padding-left: 20px;
@@ -26,9 +26,65 @@ main {
   margin-top: 20px;
 }
 
-.pay__info{
+.pay__info__group{
+display: flex;
+flex-direction: column;
+}
+
+.pay__info1{
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 20px;
+}
+
+.pay__info2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: $gutter;
+}
+
+.label__group{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.course__label{
+width: 33%;
+margin-bottom: $gutter;
+margin-right: $gutter*0.75;
+}
+
+.course__input{
+  width: 66%;
+  height: 80%;
+  margin-bottom: $gutter;
+}
+
+.small__label__group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 66%;
+}
+
+.small__label{
+  margin-right: $gutter*2;
+}
+
+.select__small{
+  margin-right: $gutter;
+  width: 20%;
+  height: 80%;
+}
+
+.button__placement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
