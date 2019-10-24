@@ -6,16 +6,12 @@
 }
 
 .cart__heading{
-  margin-left: $gutter;
-  margin-right: $gutter;
+  margin-top: $gutter;
 }
-
 
 .cart__backpack{
   display: flex;
   flex-direction: column;
-  margin-left: $gutter;
-  margin-right: $gutter;
 }
 
 .cart__chalkbag{
@@ -28,6 +24,19 @@
   flex-direction: column;
   max-width: 100%;
   margin-bottom: $gutter;
+}
+
+.cart__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.cart__amount{
+margin-right: $gutter;
+}
+
+.cart__button{
+margin-right: $gutter;
 }
 
 .cart__img1{
