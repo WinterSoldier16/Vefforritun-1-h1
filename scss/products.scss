@@ -1,8 +1,9 @@
 .products {
     display: flex;
     width: 100%;
-    flex-direction: column;
-    /*align-items: center;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: $gutter;
     &__item {
         max-width: 100vw;
@@ -18,7 +19,27 @@
 
         flex: 1;
     }
+
+    &__input {
+        border: 1px solid black;
+        height: 28px;
+        border-radius: 5px;
+        width: 60%;
+    }
 }
+
+.input__button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.button__cart {
+    width: 30%;
+    margin: 0 $gutter/2;
+}
+
+
 
 @media (min-width: 800px) {
     .products{
@@ -29,6 +50,16 @@
         }
         &__img {
             width: 100%;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .products {
+        max-width: 1200px;
+        margin: auto;
+        &__item {
+            width: 33.333333%;
         }
     }
 }
