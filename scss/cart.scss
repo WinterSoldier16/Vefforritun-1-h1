@@ -1,0 +1,124 @@
+.main__cart {
+  margin: 0 auto;
+  max-width: 1450px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cart__heading{
+  margin-top: $gutter;
+}
+
+.cart__backpack{
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__chalkbag{
+  display: flex;
+  flex-direction: column;
+}
+
+.textbox__cart{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-bottom: $gutter;
+}
+
+.cart__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.cart__amount{
+margin-right: $gutter;
+}
+
+.cart__button{
+margin-right: $gutter;
+}
+
+.cart__img1{
+  width: 100%;
+  margin-top: $gutter;
+}
+
+.cart__img2{
+  width: 100%;
+  margin-top: $gutter;
+}
+
+.cart__image{
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+.pay__info__group__cart{
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .pay__info1__cart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .pay__info2__cart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: $gutter;
+  }
+  
+  .label__group__cart{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .cart__label{
+  width: 33%;
+  margin-bottom: $gutter;
+  margin-right: $gutter*0.75;
+  }
+  
+  .cart__input{
+    width: 66%;
+    height: 80%;
+    margin-bottom: $gutter;
+  }
+  
+  .small__label__group__cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 66%;
+  }
+  
+  .small__label__cart{
+    margin-right: $gutter*2;
+  }
+  
+  .select__small__cart{
+    margin-right: $gutter;
+    width: 20%;
+    height: 80%;
+  }
+  
+  .button__placement__cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

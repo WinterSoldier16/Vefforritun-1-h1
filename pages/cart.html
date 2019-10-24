@@ -26,41 +26,56 @@
 </div>
 </header>
 
-<main>
+<main class="main__cart">
 <div class="cart__heading">
 	<h2>Vörur í körfu</h2>
 </div>
 
-<div class="cart cart__backpack">
-	<img src="../img/Backpack.jpg" alt="Backpack">
-	<h2>Bakpoki</h2>
-	<p>Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
-	<h3>49.900 kr.-</h3>
-  	<label for="amount">Fjöldi:</label>
-  	<input type="text" name="amount" id="amount" placeholder="2" required>
-  	<button class="button__cart"><img class="button__cart__image" src="../img/cart.svg">Uppfæra</button>
-  	<button class="button__cart"><img class="button__cart__image" src="../img/cart.svg">Eyða úr körfu</button>
-</div>
-
-<div class="cart cart__chalkbag">
-	<img src="../img/chalkbag.jpg" alt="Chalkbag">
-	<h2>Kalkpoki</h2>
-	<p>Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
-	<h3>4.900 kr.-</h3>
+<div class="cart__backpack">
+	<div class="cart__img1">
+	<img class="cart__image" src="../img/Backpack.jpg" alt="Backpack">
+	</div>
+	<div Class="textbox__cart">
+	<h2 class="text__cart">Bakpoki</h2>
+	<p class="text__cart">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
+	<h3 class="text__cart"><strong>49.900 kr.-</strong></h3>
 	<label for="amount">Fjöldi:</label>
-	<input type="text" name="amount" id="amount" placeholder="4" required>
-	<button class="button__cart"><img class="button__cart__image" src="../img/cart.svg">Uppfæra</button>
-	<button class="button__cart"><img class="button__cart__image" src="../img/cart.svg">Eyða úr körfu</button>
+	<div class="cart__row">  
+  	<input type="number" name="amount" id="amount" class="cart__amount" placeholder="2" required>
+  	<button class="button__cart cart__button"><img class="button__cart__image" src="../img/cart.svg">Uppfæra</button>
+	<button class="button__cart cart__button"><img class="button__cart__image" src="../img/cart.svg">Eyða úr körfu</button>
+	</div>
 </div>
 
-<div class="cart__form cart__form__shipping">
+<div class="cart__chalkbag">
+	<div class="cart__img2">
+	<img class="cart__image" src="../img/chalkbag.jpg" alt="Chalkbag">
+	</div>
+	<h2 class="text__cart">Kalkpoki</h2>
+	<p class="text__cart">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+	<h3 class="text__cart"><strong>4.900 kr.-</strong></h3>
+	<label for="amount">Fjöldi:</label>
+	<div class="cart__row">
+	<input type="number" name="amount" id="amount" class="cart__amount" placeholder="4" required>
+	<button class="button__cart cart__button"><img class="button__cart__image" src="../img/cart.svg">Uppfæra</button>
+	<button class="button__cart cart__button"><img class="button__cart__image" src="../img/cart.svg">Eyða úr körfu</button>
+	</div>
+</div>
+
+<div class="pay__info__group__cart">
+	<div class="pay__info1__cart">
 	<h2>Sendingarupplýsingar</h2>
-	<label for="name">Nafn:</label>
-	<input type="text" name="name" id="name" required>
-	<label for="address">Heimilisfang:</label>
-	<input type="text" name="address" id="address" required>
-	<label for="post__address">Póstnúmer:</label>
-		<select>
+	<div class="label__group__cart">
+	<label for="name" class="cart__label">Nafn:</label>
+	<input type="text" name="name" id="name" class="cart__input" required>
+	</div>
+	<div class="label__group__cart">
+	<label for="address" class="cart__label">Heimilisfang:</label>
+	<input type="text" name="address" id="address" class="cart__input" required>
+	</div>
+	<div class="label__group__cart">
+	<label for="post__address" class="cart__label">Póstnúmer:</label>
+		<select class="cart__input">
 			<option>-Velja póstnúmer-</option>
 			<option>101 Reykjavík</option>
 			<option>103 Reykjavík</option>
@@ -243,18 +258,25 @@
 			<option>881 Kirkjubæjarklaustri</option>
 			<option>900 Vestmannaeyjum</option>
 			<option>902 Vestmannaeyjum</option>
-	    </select>
-</div>
+		</select>
+	</div>
+	</div>
 
-<div class="cart__form cart__form__payment">
+	<div class="pay__info2__cart">
 	<h2>Greiðsluupplýsingar</h2>
-	<label for="card__number">Kortanúmer:</label>
-	<input type="text" name="card__number" id="card__number" required>
-	<label for="card__name">Korthafi:</label>
-	<input type="text" name="card__number" id="card__number" required>
-	<label for="card__expire">Gildistími:</label>
-	<label for="month">Mán</label>
-	    <select>
+	<div class="label__group__cart">
+	<label for="card__number" class="cart__label">Kortanúmer:</label>
+	<input type="text" name="card__number" id="card__number" class="cart__input" required>
+	</div>
+	<div class="label__group__cart">
+	<label for="card__name" class="cart__label">Korthafi:</label>
+	<input type="text" name="card__number" id="card__number" class="cart__input" required>
+	</div>
+	<div class="label__group__cart">
+	<label for="card__expire" class="cart__label">Gildistími:</label>
+	<div class="small__label__group__cart"></div>
+	<label for="month" class="small__label__cart">Mán</label>
+	    <select class="select__small__cart">
 	        <option>01</option>
 	        <option>02</option>
 	        <option>03</option>
@@ -268,16 +290,19 @@
 	        <option>11</option>
 	        <option>12</option>
 	    </select>
-	<label for="year">Ár</label>
-	    <select>
+	<label for="year" class="small__label__cart">Ár</label>
+	    <select class="select__small__cart">
 	        <option>2019</option>
 	        <option>2020</option>
 	        <option>2021</option>
 	        <option>2022</option>
-	    </select>
+		</select>
+	</div>
+	</div>
+	</div>
 </div>
 
-<div class="cart__button">
+<div class="button__placement__cart">
 	<button class="button__blue">Kaupa</button>
 </div>
 
@@ -296,7 +321,7 @@
 		  <li class="footer__item"><a class="footer__link" href="./products.html">Magnaðar vörur</a></li>
 		</ul>
 	  </div>
-	
+
 	  <div class="footer__group">
 		<h3>Vöruflokkar</h3>
 		<ul class="footer__list">
@@ -308,7 +333,7 @@
 		</ul>
 	  </div>
 	  </div>
-	
+
 	  <div class="footer__row">
 	  <div class="footer__group">
 		<h3>Námskeið</h3>
@@ -319,7 +344,7 @@
 		  <li class="footer__item"><a class="footer__link" href="./course.html">Fjallaklifur námskeið</a></li>
 		</ul>
 	  </div>
-	
+
 	  <div class="footer__group">
 		<h3>Síður</h3>
 		<ul class="footer__list">
@@ -331,11 +356,11 @@
 	  </div>
 	  </div>
 	</div>
-	
+
 		<div>
 		<p class="copyright">© 2019 Prílihúsið</p>
 	  </div>
-	
+
 	  </footer>
 
 </footer>
