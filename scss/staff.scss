@@ -3,6 +3,9 @@
 }
 
 .main__staff{
+  margin: 0 auto;
+  padding-left: $gutter;
+  padding-right: $gutter;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
