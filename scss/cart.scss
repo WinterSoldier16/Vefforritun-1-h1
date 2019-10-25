@@ -1,8 +1,8 @@
 .main__cart {
   margin: 0 auto;
   max-width: 1450px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: $gutter;
+  padding-right: $gutter;
 }
 
 .cart__heading{
@@ -29,6 +29,7 @@
 .cart__row{
   display: flex;
   flex-direction: row;
+  height: 50%;
 }
 
 .cart__amount{
@@ -53,13 +54,6 @@ margin-right: $gutter;
   max-width: 100%;
 }
 
-
-
-
-
-
-
-
 .pay__info__group__cart{
   display: flex;
   flex-direction: column;
@@ -69,14 +63,14 @@ margin-right: $gutter;
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 20px;
+    margin-top: $gutter;
   }
   
   .pay__info2__cart{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 20px;
+    margin-top: $gutter;
     margin-bottom: $gutter;
   }
   
@@ -121,4 +115,84 @@ margin-right: $gutter;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  @media (min-width: 600px){
+
+    .main__cart {
+      margin: 0 auto;
+      max-width: 1450px;
+      padding-left: $gutter;
+      padding-right: $gutter;
+      display: flex;
+      flex-direction: column;
+    }
+    .cart__backpack{
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .cart__chalkbag{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .cart__img1{
+      width: 33%;
+      margin-top: $gutter;
+      margin-right: $gutter/2;
+    }
+    
+    .cart__img2{
+      width: 33%;
+      margin-top: $gutter;
+      margin-right: $gutter/2;
+    }
+
+    .cart__row{
+      display: flex;
+      flex-direction: row;
+      height: 10%;
+      width: 100%;
+    }
+
+    .pay__info__group__cart{
+      display: flex;
+      flex-direction: row;
+      }
+
+    .pay__info1__cart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: $gutter;
+    margin-right: $gutter;
+  }
+
+  .select__small__cart{
+    margin-right: $gutter;
+    width: 100%;
+    height: 80%;
+  }
+
+  .small__label__cart{
+    margin-right: $gutter*0.70;
+  }
+  
+  
+  
+  
+  }
+
+  @media (min-width: 1200px){
+
+    .main__cart {
+      margin: 0 auto;
+      max-width: 1450px;
+      padding-left: $gutter*6.5;
+      padding-right: $gutter*6.5;
+      display: flex;
+      flex-direction: column;
+    }
+
   }
