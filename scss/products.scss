@@ -1,3 +1,10 @@
+.main__products{
+    margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .products {
     display: flex;
     width: 100%;
@@ -8,6 +15,8 @@
     &__item {
         max-width: 100vw;
         flex-basis: auto;
+        margin-top: $gutter;
+        margin-bottom: $gutter;
     }
     &__img {
         max-width: 100%;

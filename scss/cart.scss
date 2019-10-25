@@ -1,6 +1,6 @@
 .main__cart {
   margin: 0 auto;
-  max-width: 1450px;
+  max-width: 1200px;
   padding-left: $gutter;
   padding-right: $gutter;
 }
@@ -121,7 +121,7 @@ margin-right: $gutter;
 
     .main__cart {
       margin: 0 auto;
-      max-width: 1450px;
+      max-width: 1200px;
       padding-left: $gutter;
       padding-right: $gutter;
       display: flex;
@@ -188,9 +188,9 @@ margin-right: $gutter;
 
     .main__cart {
       margin: 0 auto;
-      max-width: 1450px;
-      padding-left: $gutter*6.5;
-      padding-right: $gutter*6.5;
+      max-width: 1200px;
+      padding-left: 0;
+      padding-right: 0;
       display: flex;
       flex-direction: column;
     }

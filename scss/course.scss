@@ -10,7 +10,7 @@
 
 .main__course {
   margin: 0 auto;
-  max-width: 1450px;
+  max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -28,6 +28,10 @@
 
 .text__course{
   margin-top: $gutter;
+}
+
+.textbox__course p{
+  font-size: 24px;
 }
 
 .pay__info__group{
@@ -147,13 +151,13 @@ margin-right: $gutter*0.75;
   
 }
 
-@media (min-width: 1250px){
+@media (min-width: 1200px){
 
     .main__course{
       margin: 0 auto;
-      max-width: 1450px;
-      padding-left: $gutter*6.5;
-      padding-right: $gutter*6.5;
+      max-width: 1200px;
+      padding-left: 0;
+      padding-right: 0;
     }
 
 }

@@ -15,7 +15,7 @@
 
 .main__index {
   margin: 0 auto;
-  max-width: 1450px;
+  max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -65,7 +65,7 @@
 
   .main__index {
     margin: 0 auto;
-    max-width: 1450px;
+    max-width: 1200px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -81,8 +81,11 @@
     display: flex;
     flex-direction: column;
     margin-bottom: $gutter;
-    margin-left: $gutter/2;
     width: 50%;
+  }
+
+  .textbox__index p{
+    font-size: 24px;
   }
 
   .text__index{
@@ -94,5 +97,15 @@
     max-width: 50%;
     margin-top: $gutter;
   }
+
+}
+
+@media (min-width: 1200px){
+.main__index {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 }
